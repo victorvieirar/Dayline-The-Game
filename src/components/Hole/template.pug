@@ -1,0 +1,4 @@
+#hole(@alive="alert('oi') ")
+  img#hb(src="../../assets/hole-back.png")
+  img#enemy(@click="hit" src="../../assets/Enemy.png" :class="{ hurted: isHitted, appear: isAlive }")
+  img#hf(src="../../assets/hole-front.png") 
